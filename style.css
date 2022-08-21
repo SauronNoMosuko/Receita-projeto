@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+  max-width: 100vw;
+  height: 100vh;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+ 
+  width: 100%;
+  height: 100px;
+  padding-left: 40px;
+  padding-right: 70px;
+  padding-top: 30px;
+  align-items: baseline;
+  background-color: rgb(149, 137, 120);
+}
+
+header ul{
+  display: flex;
+  gap: 60px;
+  width: 300px;
+  height: 20px;
+  list-style: none;
+}
+
+.nav li {
+  font-family: 'DynaPuff', cursive;
+  font-size: 17px;
+  color: antiquewhite;
+  
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav li:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+h1 {
+
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+.waffleG {
+
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+.waffleGimage {
+  border-radius: 100px;
+  border: 3px solid rgb(149, 137, 120);
+}
+
+h2 {
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+  color: rgb(116, 106, 93);
+  font-size: 34px;
+  width: 700px;
+  margin-top: 50px;
+}
+
+.list {
+  width: 700px;
+  margin-top: 25px;
+  color: rgb(116, 106, 93);
+  
+}
+
+.list li {
+  font-family: 'DynaPuff', cursive;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.list li:hover {
+  opacity: 1.0;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+  color: rgb(116, 106, 93);
+  font-size: 34px;
+  width: 700px;
+  margin-top: 25px;
+}
+
+ol {
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  line-height: 25px;
+  color: rgb(116, 106, 93);
+}
+ ol li {
+  font-family: 'DynaPuff', cursive;
+  opacity: 0.7;
+  font-size: 15px;
+ }
+
+ ol li:hover {
+  opacity: 1.0;
+  font-size: 25px;
+  cursor: pointer;
+ }
+
+ footer {
+  width: 100%;
+  min-height: 100px;
+  padding-top: 35px;
+  padding-right: 30px;
+  padding-left: 40px;
+  background-color: rgb(149, 137, 120);
+ }
+
+ h4 {
+  
+  font-family: 'DynaPuff', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  color: antiquewhite;
+  text-align: right;
+  
+ }
+
+ h4:hover {
+  cursor: pointer;
+ }
+
+ footer a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'DynaPuff', cursive;
+  color: antiquewhite;
+  top: -25px;
+ }
+
+ footer a:hover {
+  opacity: 0.7;
+ }
+ 
+
+
+
